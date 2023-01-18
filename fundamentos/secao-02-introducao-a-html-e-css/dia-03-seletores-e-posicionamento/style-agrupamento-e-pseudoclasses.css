@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ol:hover {
+    background: green
+}
+li:active {
+    font-family: serif, Times New Roman;
+    font-size: 30px;
+}
+li {
+    list-style: none;
+}
