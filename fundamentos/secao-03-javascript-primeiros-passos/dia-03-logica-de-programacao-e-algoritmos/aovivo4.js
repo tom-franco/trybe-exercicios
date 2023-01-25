@@ -1,7 +1,13 @@
-let idade = 15;
+let idade = 18;
 
-if (idade < 0) {
-console.log('Idade invalida')
+if (idade < 18) {
+console.log('Menor de idade')
 } else {
-    console.log('É de maior')
+console.log('É de maior')
 }
+
+//Bonus ternario
+
+let idade2 = 18;
+
+idade2 >= 18 ? console.log('Pessoa maior de idade') : console.log('Pessoa menor de idade');
