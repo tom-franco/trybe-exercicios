@@ -48,7 +48,7 @@ for (let key in pizzas) {
 
   // Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
 
-  let car = {
+ /*  let car = {
     model: 'A3 Sedan',
     manufacturer: 'Audi',
     year: 2020
@@ -56,4 +56,43 @@ for (let key in pizzas) {
 
   for (let key in car) {
     console.log(key + ': ' + car[key])
-  }
+  } */
+
+  //
+
+  // Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+
+const a = 10
+const b = 20
+
+function adicao(a, b) {
+    return a + b;
+}
+console.log(adicao(a, b))
+
+function subtracao(a, b) {
+    return a - b;
+}
+console.log(subtracao(a, b))
+
+function multiplicacao(a, b) {
+    return a * b;
+}
+console.log(multiplicacao(a, b))
+
+function divisao(a, b) {
+    return a / b;
+}
+console.log(divisao(a, b))
+
+function divisao(a, b) {
+    return a / b;
+}
+console.log(divisao(a, b))
+
+function modulo(a, b) {
+    return a % b;
+}
+console.log(modulo(a, b))
+
+
